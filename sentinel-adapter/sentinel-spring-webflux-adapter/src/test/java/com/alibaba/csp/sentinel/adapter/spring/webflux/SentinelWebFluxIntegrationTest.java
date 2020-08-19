@@ -74,7 +74,7 @@ public class SentinelWebFluxIntegrationTest {
     @Test
     public void testWebFluxRouterFunction() throws Exception {
 
-        String url = "/router/hello/";
+        String url = "/router/hello";
         this.webClient.get()
                 .uri(url)
                 .accept(MediaType.TEXT_PLAIN)
