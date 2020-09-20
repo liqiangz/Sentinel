@@ -112,7 +112,7 @@ public class RedisConnectionConfigTest {
         String host = "localhost";
         String host2 = "server2";
         int port1 = 1879;
-        int port2 = 1879;
+        int port2 = 1880;
         RedisConnectionConfig redisConnectionConfig = RedisConnectionConfig.Builder.redisCluster(host, port1)
                 .withRedisCluster(host2, port2)
                 .build();
