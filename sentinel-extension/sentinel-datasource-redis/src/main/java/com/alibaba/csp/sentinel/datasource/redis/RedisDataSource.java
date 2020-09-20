@@ -194,7 +194,7 @@ public class RedisDataSource<T> extends AbstractDataSource<String, T> {
     @Override
     public String readSource() {
         if (this.redisClient == null && this.redisClusterClient == null) {
-            throw new IllegalStateException("Redis client has not been initialized or error occurred");
+            throw new IllegalStateException("Redis client or Redis Cluster client has not been initialized or error occurred");
         }
 
         if(redisClient != null){
