@@ -626,7 +626,7 @@ public class RedisConnectionConfig {
 
             if (redisSentinels.isEmpty() && redisClusters.isEmpty() && StringUtil.isEmpty(host)) {
                 throw new IllegalStateException(
-                    "Cannot build a RedisConnectionConfig. One of the following must be provided Host, Socket or "
+                    "Cannot build a RedisConnectionConfig. One of the following must be provided Host, Socket, Cluster or "
                         + "Sentinel");
             }
 
