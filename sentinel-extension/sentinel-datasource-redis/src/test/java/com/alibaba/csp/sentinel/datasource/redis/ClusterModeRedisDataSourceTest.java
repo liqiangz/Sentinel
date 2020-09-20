@@ -1,5 +1,5 @@
 /*
- * Copyright 1999-2018 Alibaba Group Holding Ltd.
+ * Copyright 1999-2020 Alibaba Group Holding Ltd.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -44,7 +44,7 @@ import static org.awaitility.Awaitility.await;
 /**
  * Redis redisCluster mode test cases for {@link RedisDataSource}.
  *
- * @author tiger
+ * @author liqiangz
  */
 @Ignore(value = "Before run this test, you need to set up your Redis Cluster.")
 public class ClusterModeRedisDataSourceTest {
